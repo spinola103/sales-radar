@@ -1,0 +1,16 @@
+{
+  "name": "twitter-scraper-http",
+  "version": "1.0.0",
+  "description": "HTTP endpoint that scrapes latest tweets for a query (Puppeteer + Stealth). Designed for Railway / n8n integration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "pino": "^8.21.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
